@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-color {
+  background-image: linear-gradient(#fa7257, #fc63a7, #dd1264);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: white;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.name-text {
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  color: black;
+}
+.button-style {
+  background-color: white;
+  width: 150px;
+  color: #dd1264;
+  border-radius: 10px;
+  padding: 10px;
+}
